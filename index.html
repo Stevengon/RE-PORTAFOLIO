@@ -28,6 +28,8 @@
 
     <!-- Css -->
     <link rel="stylesheet" href="Css/Style.css">
+    <!-- normalize -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <!-- Icono -->
     <link rel="short icon" href="Images/logo.png">
     <!-- Font Awesome -->
@@ -44,42 +46,179 @@
 <body>
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg  navbar-light fixed-top navigation-nav">
-        <div class="container-fluid">
-            <a href="index.html"><img src="Images/logo.png" class="navigation-nav__logo"> </a>
-            <button class="navbar-toggler navigation-nav__toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-navigation">
+        <div class="container-fluid text-center">
+            <a class="navbar-brand " href="#">Menú</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto ml-auto ">
+                    <a class="nav-link" href="#home">Inicio <i class="fas fa-home"></i></a>
+                    <a class="nav-link" href="#aboutme">Acerca de mi <i class="fas fa-user"></i></a>
+                    <a class="nav-link" href="#hobbies">Hobbies <i class="fas fa-puzzle-piece"></i></a>
+                    <a class="nav-link" href="#Habilities">Habilidades <i class="fas fa-rocket"></i></a>
+                    <a class="nav-link" href="#experience">Experiencia <i class="fas fa-briefcase"></i></a>
+                    <a class="nav-link" href="#contact">Contáctame <i class="fas fa-envelope"></i></a>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto ml-auto">
-                    <li><a class="nav-item nav-link text-white inicio" href="#home"><i class="fas fa-home"></i>
-                            Inicio</a>
-                    </li>
-                    <li> <a class="nav-item nav-link text-white" href="#aboutme"><i class="fas fa-user"></i> Acerca de
-                            mi</a>
-                    <li><a class="nav-item nav-link text-white" href="#hobbies"><i class="fas fa-puzzle-piece"></i>
-                            Hobbies</a>
-                    </li>
-                    </li>
-                    <li><a class="nav-item nav-link text-white" href="#habilities"><i class="fas fa-rocket"></i>
-                            Habilidades</a>
-                    </li>
-                    <li> <a class="nav-item nav-link text-white" href="#experience"><i class="fas fa-briefcase"></i>
-                            Experiencia</a></li>
-                    <li><a class="nav-item nav-link text-white" href="#contact"><i class="fas fa-envelope"></i>
-                            Contáctame</a>
-                    </li>
-                </ul>
+                </div>
             </div>
         </div>
     </nav>
-    <div class="solid">
+    <!-- PORTADA -->
+    <section>
+        <img src="images/Fondo.jpeg">
+    </section>
 
-    </div>
+
+    <!-- ABOUT ME -->
+    <Section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <h2 class="pt-4"><i class="fas fa-user"></i> ACERCA DE MI</h2>
+                    <div class="card-body bg-dark text-white" id="desc">
+                        <p>Soy un joven estudiante de Ingenieria en Telemática, comprometido con mis objetivos y
+                            responsabilidades, dispuesto para aprender y adquirir nuevos conocimientos que me permitan
+                            contribuir
+                            a
+                            mi desarrollo personal, social y perfil profesional.</p>
+                        <p>
+                            Soy una persona multifacética que actualmente busca encajar y adaptarse al ámbito laboral a
+                            partir del
+                            esfuerzo y la dedicación en pro de aportar a las necesidades de la empresa.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div>
+                        <img src="Images/Avatar2.png" style="width: 40%;" class="avatar2 pt-5">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Section>
+
+    <!-- HOBBIES -->
+    <section>
+        <div class="container">
+            <h2 class="pt-4"><i class="fas fa-puzzle-piece"></i> HOBBIES</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-8">
+                    <div class="card-body bg-dark text-white">
+                        <h3>Computación e informática </h3>
+                        <p>Actualmente soy estudiante de ingenieria en Telemática, me gusta el desarrollo web y el
+                            entorno de redes de información.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-8">
+                    <div class="card-body bg-dark text-white">
+                        <h3>Música</h3>
+                        <p>Desde muy joven adquirí gusto por la música, actualmente se tocar la guitarra, el piano y el
+                            ukelele y tengo la intención de realizar covers. Aquí puedes ver mi cover mas reciente <a
+                                href="https://www.youtube.com/watch?v=moQ5t7Du9YQ" class="badge badge-danger"
+                                target="_blank"><i class="fas fa-play"></i></a></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-8">
+                        <div class="card-body bg-dark text-white">
+                            <h3>Deportes y actividad Física</h3>
+                            <p>Me gusta el futbol, el beisbol y los deportes en general, también soy entuciasta de hacer
+                                ejercicio en casa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- HABILITIES -->
+    <section>
+
+        <div class="container">
+            <h2><i class="fas fa-rocket mt-5 mb-5"></i> HABILIDADES</h2>
+            <div class="row habilities">
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <i class="fab fa-js-square"></i>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <i class="fab fa-bootstrap"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section>
+        <div class="container">
+            <h2 class="pt-5 exp"><i class="fas fa-briefcase"></i> EXPERIENCIA</h2>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-8">
+                    <div class="card-body">
+                        <img src="Images/oasis.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-8">
+                    <div class="card-body">
+                        <img src="Images/focus.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT ME -->
+    <Section>
+        <div class="container">
+            <div class="contact-section contacto ">      
+                <div class="contact-form">
+                  <h2><i class="fas fa-envelope"></i> CONTÁCTAME</h2>
+                  <form class="contact" action="" id="form">
+                    <input type="text" name="name" class="text-box" placeholder="Nombre y apellido" required>
+                    <input type="email" name="email" class="text-box" placeholder="Correo" required>
+                    <textarea name="message" id="mensaje" placeholder="Escribe tu mensaje..." required rows="3"></textarea>
+                    <button type="submit" class="btn send-btn"><i class="fas fa-paper-plane"></i> Enviar</button>
+                  </form>
+                  <a href="mailto:segundo_plato@hotmail.es" id="envio">Email</a>
+                </div>
+              </div>
+        </div>
+    </Section>
+
 
 </body>
+<!-- FOOTER -->
+<footer class="text-center text-white footer">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0 ">
+        <!-- Section: Social media -->
+        <section class="mb-4 footer">
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                    class="fab fa-linkedin-in"></i></a>
+
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-youtube"></i></a>
+        </section>
+        <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2021 Derechos reservados <br>
+        <a class="text-white" href="https://mdbootstrap.com/">Stevengon974@gmail.com</a>
+    </div>
+    <!-- Copyright -->
+</footer>
 
 </html>
