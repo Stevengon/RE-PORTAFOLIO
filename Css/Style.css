@@ -17,51 +17,27 @@ body{
 
 /* NAVBAR */
 .nav-navigation{
-    color: #fff !important;
     background:#000 !important;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     letter-spacing: 1px;
     font-size: 1em;
-    
+    color: #fff !important;
+    font-weight: 1000;
 }
-
-.navigation-nav ul{
-    font-family: 'Oswald', sans-serif;
-    font-weight: 100;
-    letter-spacing: 1px;
-    font-size: 1em;
-}
-
-.navigation-nav .navigation-nav__logo{
-    min-width: 5%;
-    height: 5vh;
-    margin-left: 40px;
-    transition: 0.2s ease-out;
-    max-width: 6.5vh;    
-}
-.navigation-nav .navigation-nav__logo:hover{
-    transform:scale(1.1) ;
-}
-
-/* @media (min-width: 768px){
-    .bg-primary{
-        background-color: transparent;        
-    }
-} */
-
-.navigation-nav ul li{
+.nav-navigation a{
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 10px;
     position: relative;
-    
+    text-decoration: none;
 }
-.navigation-nav li:hover{
+.nav-navigation a:hover{
     transition: 0.3s ease-out;
     transform:scale(1.1) ;
+    color: #FFFFFF;
 }
-.navigation-nav ul li::before{
+.nav-navigation a::before{
     content: "";
     height: 3px;
     width: 0%;
@@ -71,41 +47,51 @@ body{
     bottom: 2px;
     transition: 0.2s ease-out;
 }  
-.navigation-nav ul li:hover::before {
+.nav-navigation a:hover::before {
     width: 100%;
-    transition: all 0.2s;
-}
-.navigation-nav .navigation-nav__toggler{
-    color: rgb(255, 255, 255);
-    width: 7vh;
-    height: 4.2vh;
-    border: none;
-    outline: none;
-}
-.navigation-nav .navigation-nav__toggler:focus{
-    outline: none!important;
-}
-.navbar-nav{
-    background-color: #000;
-    background-size:auto;
-    
+    transition: all 0.5s;
 }
 
-.navigation-nav ul li a{
-    text-decoration: none;
-    color: white;
+
+/* 
+.navigation-nav .navigation-nav__logo{
+    min-width: 5%;
+    height: 5vh;
+    margin-left: 40px;
+    transition: 0.2s ease-out;
+    max-width: 6.5vh;    
 }
+.navigation-nav .navigation-nav__logo:hover{
+    transform:scale(1.1) ;
+} */
+
+/* @media (min-width: 768px){
+    .bg-primary{
+        background-color: transparent;        
+    }
+} */
+
 
 
 /* PORTADA */
 img{
     width: 100%;
 }
-
+/* ABOUTME */
+.aboutme-avatar{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
 
 /* HABILITIES */
-.habilities i{
-    font-size: 10em;
+.habilities i {
+    display: inline-block;
+    font-size: 10em;    
+    margin: 0% 33%;
+    color: black;
+    border:10px solid red;
+    
 }
 
 
