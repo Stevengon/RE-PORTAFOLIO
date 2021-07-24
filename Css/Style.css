@@ -10,6 +10,10 @@ body{
     background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
  
+h2{
+    text-align: center;
+    padding: 5%;
+}
 /* FOOTER */
   .footer{
     background-color: black;
@@ -17,13 +21,24 @@ body{
 
 /* NAVBAR */
 .nav-navigation{
-    background:#000 !important;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     letter-spacing: 1px;
     font-size: 1em;
     color: #fff !important;
     font-weight: 1000;
+}
+.nav-navigation__color{
+    background:#000 !important;
+}
+#nav-navigation{
+    transition: all 0.8s ease;
+    
+}
+@media (min-width: 768px){
+    .bg-primary{
+        background-color: transparent;        
+    }
 }
 .nav-navigation a{
     list-style: none;
@@ -74,14 +89,51 @@ body{
 
 
 /* PORTADA */
-img{
-    width: 100%;
+.portada-background{
+    background-image: url("../Images/Fondo.jpeg");
+    background-repeat:no-repeat;
+    background-attachment:fixed ;
+    position: relative;
+    padding-top: 1000px;
+    background-position:bottom ;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
 }
+.portada-background::before{
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.portada-description{
+    position: relative;
+    color: rgb(92, 89, 89);
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    margin-top: -25%;
+}
+
+
+
+
 /* ABOUTME */
+.aboutme-description{
+   margin-bottom: 10%;
+   align-items: center;
+   color: #ECF0F1 ; 
+   border-radius: 30px;
+   text-align: justify;
+   
+}
 .aboutme-avatar{
     display: block;
     margin: auto;
     width: 50%;
+    margin-top: -10%;
 }
 
 /* HABILITIES */
@@ -90,7 +142,11 @@ img{
     font-size: 10em;    
     margin: 0% 33%;
     color: black;
-    border:10px solid red;
+    border:10px solid red;   
+}
+
+/* EXPERIENCE */
+.expierence-project{
     
 }
 
