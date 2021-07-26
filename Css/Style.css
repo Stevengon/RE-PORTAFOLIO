@@ -95,7 +95,7 @@ h2{
     background-attachment:fixed ;
     position: relative;
     padding-top: 1000px;
-    background-position:bottom ;
+    background-position:bottom;
     width: 100vw;
     height: 100vh;
     text-align: center;
@@ -110,13 +110,27 @@ h2{
     right: 0;
 }
 .portada-description{
-    position: relative;
-    color: rgb(92, 89, 89);
+    position: absolute;
+    left: 20%;
+    bottom: 40%;
+    top: 20%;
+    /* margin-bottom: 25%; */
+    color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
-    font-size: 50px;
-    margin-top: -25%;
+    font-size: 200%;
+    
 }
 
+.portada-avatar{
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-top: -100%;
+    
+}
 
 
 
