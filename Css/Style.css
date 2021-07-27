@@ -90,11 +90,10 @@ h2{
 
 /* PORTADA */
 .portada-background{
-    background-image: url("../Images/Fondo.jpeg");
+    
     background-repeat:no-repeat;
     background-attachment:fixed ;
     position: relative;
-    padding-top: 1000px;
     background-position:bottom;
     width: 100vw;
     height: 100vh;
@@ -111,10 +110,9 @@ h2{
 }
 .portada-description{
     position: absolute;
-    left: 20%;
     bottom: 40%;
     top: 20%;
-    /* margin-bottom: 25%; */
+    text-align: center;
     color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
     font-size: 200%;
