@@ -90,14 +90,14 @@ h2{
 
 /* PORTADA */
 .portada-background{
-    
+    background: url("../Images/Fondo.jpeg");
     background-repeat:no-repeat;
     background-attachment:fixed ;
+    background-size: cover;
     position: relative;
-    background-position:bottom;
+    /* background-position:bottom; */
     width: 100vw;
     height: 100vh;
-    text-align: center;
 }
 .portada-background::before{
     content: '';
@@ -110,8 +110,7 @@ h2{
 }
 .portada-description{
     position: absolute;
-    bottom: 40%;
-    top: 20%;
+    top: 45%;
     text-align: center;
     color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
@@ -122,11 +121,10 @@ h2{
 .portada-avatar{
     position: absolute;
     left: 25%;
-    top: 50%;
+    top: -47rem;
     display: block;
     margin: auto;
     width: 50%;
-    margin-top: -100%;
     
 }
 
