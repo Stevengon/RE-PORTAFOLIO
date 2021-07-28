@@ -89,10 +89,9 @@ body{
 .portada-background{
     background: url("../Images/Fondo.jpeg");
     background-repeat:no-repeat;
-    background-attachment:fixed ;
+    /* background-attachment:fixed ; */
     background-size: cover;
     position: relative;
-    
     width: 100vw;
     height: 100vh;
 }
@@ -109,7 +108,7 @@ body{
     position: absolute;
     top: 55%;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #fff;
     font-family: 'Poppins', sans-serif;
     font-size: 100%;
     
