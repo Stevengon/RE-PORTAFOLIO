@@ -10,10 +10,7 @@ body{
     background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
  
-h2{
-    text-align: center;
-    padding: 5%;
-}
+
 /* FOOTER */
   .footer{
     background-color: black;
@@ -21,6 +18,7 @@ h2{
 
 /* NAVBAR */
 .nav-navigation{
+    background:#000 ;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     letter-spacing: 1px;
@@ -31,7 +29,7 @@ h2{
 .nav-navigation__color{
     background:#000 !important;
 }
-#nav-navigation{
+/* #nav-navigation{
     transition: all 0.8s ease;
     
 }
@@ -39,7 +37,7 @@ h2{
     .bg-primary{
         background-color: transparent;        
     }
-}
+} */
 .nav-navigation a{
     list-style: none;
     display: inline-block;
@@ -95,7 +93,7 @@ h2{
     background-attachment:fixed ;
     background-size: cover;
     position: relative;
-    /* background-position:bottom; */
+    
     width: 100vw;
     height: 100vh;
 }
@@ -121,7 +119,7 @@ h2{
 .portada-avatar{
     position: absolute;
     left: 25%;
-    top: -47rem;
+    top: -42rem;
     display: block;
     margin: auto;
     width: 50%;
@@ -147,13 +145,13 @@ h2{
 }
 
 /* HABILITIES */
-.habilities i {
+/* .habilities i {
     display: inline-block;
     font-size: 10em;    
     margin: 0% 33%;
     color: black;
     border:10px solid red;   
-}
+} */
 
 /* EXPERIENCE */
 /* .expierence-project{
