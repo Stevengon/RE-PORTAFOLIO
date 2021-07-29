@@ -168,13 +168,20 @@ body{
 }
 
 /* HABILITIES */
-/* .habilities i {
-    display: inline-block;
-    font-size: 10em;    
-    margin: 0% 33%;
+.habilities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.habilities i {
+    padding: 1rem;
+    font-size: 8em;    
     color: black;
-    border:10px solid red;   
-} */
+    border: solid rebeccapurple;
+    min-height: 200px;
+    
+}
 
 /* EXPERIENCE */
 /* .expierence-project{
