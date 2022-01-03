@@ -163,7 +163,7 @@ body{
    border-radius: 30px;
    text-align: justify;
    font-size: 120%;
-   margin: 0px 5%;
+   margin: 0px 1%;
    
 }
 .about-item{
@@ -174,8 +174,31 @@ body{
     display: block;
     margin: auto;
     width: 50%;
+    transition: 0.4s;
     
 }
+.aboutme-avatar:hover{
+    
+    transform: scale(1.05, 1.05);
+    
+}
+
+.aboutme-description{
+    margin: 0 0%;
+    border-radius: 20px;
+    background-color: rgba(206, 206, 206, 0.7);
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: context-menu;
+    transition: 0.4s;
+    
+}
+.aboutme-description:hover {
+    transform: scale(1.05, 1.05);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+  }
+
+
 
 /*HOBBIES*/
 .fondo-hobbies{
@@ -226,7 +249,7 @@ body{
 .proyectos{
     position: relative;
     overflow: hidden;
-    margin-top: 10%;
+    margin-top: 6%;
     align-items: center;    
 }
 .proyectos img{
@@ -257,7 +280,7 @@ body{
     position: absolute;
     bottom: 0;
     width: 85%;
-    padding: 8%;
+    padding: 10%;
     margin-left: 7.5%;
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
@@ -290,4 +313,5 @@ body{
 
 .contact-info h3{
     font-size: 1.2em;
+    text-decoration: none;
 }
