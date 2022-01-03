@@ -109,34 +109,41 @@ body{
     left: 0;
     right: 0;
 }
+.portada{
+    
+}
 .portada-description{
     position: absolute;
-    top: 55%;
+    top: 40%;
     text-align: center;
     color: #fff;
     font-family: 'Poppins', sans-serif;
-    font-size: 100%;
+}
+
+.portada-description h2{
+    margin-top: 2%;
+    font-size: 2.8rem;
+    text-decoration: none;
+    
     
 }
-.portada-description h1{
-    font-size: 1.7rem;
-    margin-bottom: -0.5px;
-}
-.portada-description h2{
-    font-size: 2.5rem;
-    text-decoration: underline;
-    margin-bottom: 20px;
-}
 .portada-description h4{
-    font-size: 1.2rem;
+    font-size: 1.8rem;
+    margin-bottom: -10%;
+    
 }
 .portada-description a{
-    font-size: 1.rem;
+    font-size: 1.8rem;
+}
+.portada-description .btn-cv{
+    border-radius: 10px;
+    margin-top: 10%;
+    
 }
 .portada-avatar{
     position: absolute;
     left: 25%;
-    top: -47rem;
+    top: -45rem;
     display: block;
     margin: auto;
     width: 50%;
