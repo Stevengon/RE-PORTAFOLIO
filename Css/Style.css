@@ -225,10 +225,54 @@ body{
     color: #FFFFFF;
 }
 
-.card-hobbie{
-    margin: 5%;
+.card-hobbie i{
+    display: block;
+    margin: auto;
+    font-size: 9rem;
+    text-align: center;
+    padding: 8% 0%;
+    color: rgb(46, 45, 45);
+    
     /* margin:auto; */
 }
+.card-hobbie{
+   
+   border-radius: 10px 10px 2px 2px;
+   text-align: justify;
+   margin: 0% 5%;
+   margin-top: 1%;
+   margin-bottom: 3%;
+}
+.info-hobbie{
+    color: #777a7a ; 
+   border-radius:  2px 2px 10px 10px;
+   text-align: justify;
+   margin: 0% 5%;
+   margin-top: 1%;
+   margin-bottom: 3%;
+   padding: 8% 3%;
+   text-align: justify;
+}
+.info-hobbie p{
+    text-align: justify;
+ }
+ .info-hobbie h3{
+    text-align: center;
+ }
+
+ .animation-hobbie{
+    /* background-color:rgba(23, 32, 42, 0.5); */
+    background-color: rgba(248, 248, 248, 0.781);
+    transition: 0.4s;
+ }
+
+
+ .animation-hobbie:hover{
+    
+    transform: scale(1.05, 1.05);
+    
+}
+
 
 /* HABILITIES */
 .habilities {
