@@ -177,6 +177,36 @@ body{
     
 }
 
+/*HOBBIES*/
+.fondo-hobbies{
+    background: url("../Images/hobbies.jpeg");
+    background-attachment: fixed;
+    background-size: cover ;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.fondo-hobbies::before{
+    content: '';
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.9);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.fondo-hobbies h2{
+    padding-top: 5%;
+    margin-top: 10%;
+    position: relative;
+    color: #FFFFFF;
+}
+
+.card-hobbie{
+    margin: 5%;
+    /* margin:auto; */
+}
+
 /* HABILITIES */
 .habilities {
     display: flex;
