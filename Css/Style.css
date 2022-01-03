@@ -10,7 +10,12 @@ body{
     background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
  
-
+.sub-tittle{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 300%;
+}
 /* FOOTER */
   .footer{
     background-color: black;
@@ -153,18 +158,23 @@ body{
 
 /* ABOUTME */
 .aboutme-description{
-   margin-bottom: 10%;
-   align-items: center;
+   
    color: #ECF0F1 ; 
    border-radius: 30px;
    text-align: justify;
+   font-size: 120%;
+   margin: 0px 5%;
    
+}
+.about-item{
+    align-items: center;
+    margin: auto;
 }
 .aboutme-avatar{
     display: block;
     margin: auto;
     width: 50%;
-    margin-top: -10%;
+    
 }
 
 /* HABILITIES */
@@ -176,9 +186,8 @@ body{
 }
 .habilities i {
     padding: 1rem;
-    font-size: 8em;    
+    font-size: 10em;    
     color: black;
-    border: solid rebeccapurple;
     min-height: 200px;
     
 }
