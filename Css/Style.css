@@ -189,7 +189,7 @@ body{
 .fondo-hobbies::before{
     content: '';
     position: absolute;
-    background-color:rgba(0, 0, 0, 0.9);
+    background-color:rgba(0, 0, 0, 0.8);
     top: 0;
     bottom: 0;
     left: 0;
@@ -277,4 +277,17 @@ body{
     transition: all 0.5s;
 }
 
+/* CONTACT ME*/
+.contact-info{
+    text-align: center;
+    display: block;
+}
+.contact-info i{
+    font-size: 1em;
+    text-align: center;
+    /* padding: 5%; */
+}
 
+.contact-info h3{
+    font-size: 1.2em;
+}
