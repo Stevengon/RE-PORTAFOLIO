@@ -109,9 +109,7 @@ body{
     left: 0;
     right: 0;
 }
-.portada{
-    
-}
+
 .portada-description{
     position: absolute;
     top: 40%;
@@ -121,7 +119,7 @@ body{
 }
 
 .portada-description h2{
-    padding-top: 10%;
+    padding-top: 5%;
     font-size: 2.8rem;
     text-decoration: none;
     
@@ -143,8 +141,8 @@ body{
 .portada-avatar{
     position: absolute;
     left: 25%;
-    top: -45rem;
-    display: block;
+    top: -52rem;
+    display: flex;
     margin: auto;
     width: 50%;
     animation: move_portada-avatar 3s ease-in-out infinite;
