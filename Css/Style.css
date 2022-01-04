@@ -142,10 +142,20 @@ body{
 .portada-avatar{
     position: relative;
     top: -45rem;
+    /* top: -45rem; */
     display: block;
     margin: auto;
     width: 50%;
     animation: move_portada-avatar 3s ease-in-out infinite;
+}
+
+@media (max-width: 600px){
+    .portada-description{
+        top: 52%;
+    }
+    .portada-avatar{
+        top: -45rem;
+    }
 }
 @keyframes move_portada-avatar{
     0%{
