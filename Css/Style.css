@@ -118,7 +118,6 @@ body{
     color: #fff;
     font-family: 'Poppins', sans-serif;
     
-    
 }
 
 .portada-description h2{
@@ -140,11 +139,12 @@ body{
     
 }
 .portada-avatar{
-    position: relative;
+    position: absolute;
     top: -45rem;
     /* top: -45rem; */
     display: block;
-    margin: auto;
+    margin-left: 24%;
+    
     width: 50%;
     animation: move_portada-avatar 3s ease-in-out infinite;
 }
